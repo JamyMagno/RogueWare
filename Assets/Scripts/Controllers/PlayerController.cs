@@ -80,7 +80,7 @@ namespace Controllers
             // These lines control normal movement while not jumping
             if (!isJumping)
             {
-                _rigidbody2D.velocity = new Vector3(horizontal * speed, vertical * speed, 0);
+                _rigidbody2D.velocity = new Vector3(horizontal * speed, vertical * speed, 5);
             }
             
             // These lines control the movement while jumping
